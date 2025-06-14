@@ -1,0 +1,19 @@
+
+
+LARAVEL VERSION 10,
+ Admin Url http://127.0.0.1:8000/admin/login
+ Saleperson Url http://127.0.0.1:8000/saleperson/login
+admin : admin@gmail.com password : 123456789
+saleperson : sales@example.com : 987654321
+ 
+1 "In the Admin Dashboard, if any product has a stock under 50, it should show as Low Stock.
+Also, show the total payment amount of all orders."
+
+2 "In inventory, if the stock goes below 10, a 'Low Stock' message should be shown."
+3 php artisan migrate 
+4 php artisan db:seed --class=AdminSeeder
+4 php artisan db:seed --class=SalepersonSeeder
+I just started the project today. Please check the file details.
+* I didn’t get time to work on the API. I’ve developed the ERP 7 application, but currently I don’t have time to continue
+database inside database folder 
+
